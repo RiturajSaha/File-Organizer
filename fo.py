@@ -40,8 +40,8 @@ for i in os.scandir():
     
     print(src," moved to ",dest," !")
     shutil.move(src,dest)
-print("jm.py removed...")    
-os.remove("Other/jm.py")    
+print("FO.py removed...")    
+os.remove("Other/FO.py")    
 
     
 
