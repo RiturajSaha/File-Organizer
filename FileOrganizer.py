@@ -48,6 +48,7 @@ for file in os.scandir():
     dest="Other"
     
     if fileFormatType =="" :
+	print(src,'has no file extension !')	
         continue
     else:
       for formats in fileFormats:
@@ -63,7 +64,7 @@ for file in os.scandir():
     print(src," moved to ",dest," !")
     shutil.move(src,dest)
 
-# In FilePrganizer.exe 
+# In FileOrganizer.exe 
 # FileOrganizer.py is changed to FilePrganizer.exe
 # to make it work in exe file    
     
