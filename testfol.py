@@ -6,4 +6,4 @@ for obj in os.scandir():
     print(fname)
     form=fname.suffix.lower()
     print(form)
-    print()
+   
