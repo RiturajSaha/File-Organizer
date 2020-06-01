@@ -4,4 +4,4 @@ A Python Script used to manage junk objects in a folder. It can be used by runni
 
 The python script is also converted to an executable file inorder achive low execution time and system independence. 
 
-####Libraries: os, pathlib and shutil 
+**Libraries:** *os*, *pathlib* and *shutil* 
