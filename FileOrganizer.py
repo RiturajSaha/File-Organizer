@@ -9,7 +9,7 @@ import os
 import pathlib 
 import shutil
 
-fileFormats = {
+fileFormat = {
 	           "Web": [".html5", ".html", ".htm", ".xhtml"], 
 	
                "Picture": [".jpeg", ".jpg", ".tiff", ".gif",
@@ -36,8 +36,8 @@ fileFormats = {
                          ".vox", ".wav", ".wma"], 
               } 
 
-fileTypes = list(fileFormats.keys())
-fileFormats = list(fileFormats.values())
+fileTypes = list(fileFormat.keys())
+fileFormats = list(fileFormat.values())
 
 for file in os.scandir():
   
