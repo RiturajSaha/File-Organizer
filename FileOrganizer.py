@@ -53,9 +53,10 @@ for file in os.scandir():
     else:
       for formats in fileFormats:
           if fileFormatType in formats:
-             if os.path.isdir(fileTypes[fileFormats.index(formats)])== False :
-                  os.mkdir(fileTypes[fileFormats.index(formats)])
-                  dest=fileTypes[fileFormats.index(formats)]
+	     folder=fileTypes[fileFormats.index(formats)]
+             if os.path.isdir(folder)== False :
+                  os.mkdir(folder)
+                  dest=folder
         
       else:
          if os.path.isdir("Other")== False :
